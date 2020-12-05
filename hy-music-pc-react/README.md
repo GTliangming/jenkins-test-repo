@@ -20,3 +20,9 @@ GiHub：[https://github.com/necolas/normalize.css.git](https://github.com/necola
 使用 ` yarn add @craco/craco`  
 创建 ** craco.config.js文件 **
 可以在不暴露webpack配置的情况下给项目添加一些配置信息
+
+
+### 三、配置路由
+
+使用 ` yarn add react-router-dom` 
+ ` yarn add react-router-config`   将路由统一管理
