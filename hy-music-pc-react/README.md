@@ -1,9 +1,22 @@
 ### 目录结构
-- assets  静态资源
+
+- assets 静态资源
 - components 公共组件
 - common 公共数据、参数、常量
 - network 网络请求
-- pages  页面组件
-- router 路由配置 
-- store redux相关仓库 
+- pages 页面组件
+- router 路由配置
+- store redux 相关仓库
 - utils 封装的工具相关
+
+### 一、css 重置
+
+使用 normalize.css  `yarn add normalize.css`
+GiHub：[https://github.com/necolas/normalize.css.git](https://github.com/necolas/normalize.css.git)
+
+
+### 二、配置别名
+
+使用 ` yarn add @craco/craco`  
+创建 ** craco.config.js文件 **
+可以在不暴露webpack配置的情况下给项目添加一些配置信息
