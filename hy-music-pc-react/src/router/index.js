@@ -1,22 +1,27 @@
-
+import React from "react";
 import HYDiscover from "@/pages/discover";
 import HYMine from "@/pages/mine";
 import HYFriends from "@/pages/friends";
 
+import { Redirect } from "react-router-dom"
 
- const routes = [
+const routes = [
     {
-        path:"/",
-        exact:true,
-        component:HYDiscover
+        path: "/",
+        exact: true,
+        render: () => <Redirect to="/discover" />
     },
     {
-        path:"/mine",
-        component:HYMine
+        path: "/discover",
+        component: HYDiscover
     },
     {
-        path:"/friends",
-        component:HYFriends
+        path: "/mine",
+        component: HYMine
+    },
+    {
+        path: "/friends",
+        component: HYFriends
     },
 
 

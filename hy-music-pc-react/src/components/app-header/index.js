@@ -18,7 +18,7 @@ export default memo(function HYAppHeader() {
   const showItem = (item, index) => {
     if (index < 3) {
       return (
-        <NavLink to={item.link}>
+        <NavLink to={item.link} exact>
           {item.title}
           <i className="sprite_01 icon"></i>
         </NavLink>
@@ -32,8 +32,8 @@ export default memo(function HYAppHeader() {
     <AppHeaderWrapper>
       <div className="wrap-v1 content">
         <HeaderLeft>
-          <a className="logo sprite_01" href="#/discover">网易云音乐</a>
-          <div className="select-list">
+          <a className="logo sprite_01" href="#/">网易云音乐</a>
+          <div className="select-list"> 
             {
               headerLinks.map((item, index) => {
                 return (
