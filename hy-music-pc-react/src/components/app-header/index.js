@@ -1,12 +1,55 @@
 import React, { memo } from 'react'
+
+import { headerLinks } from "@/common/link-data"
+
+
+
+import {
+    HeaderWrapper,
+    HeaderLeft,
+    HeaderRight
+} from "./style"
 import { NavLink } from 'react-router-dom'
 
+
 export default memo(function HYAppHeader() {
+
+
+
+    const showSelectItem = (item, index) => {
+        if (index < 3) {
+            return (
+                <NavLink to={item.link}>
+                    {item.title}
+                    <i className="sprite_01 icon" />
+                </NavLink>
+            )
+        } else {
+            return <a href={item.link}>{item.title}</a>
+        }
+    }
+
+
     return (
-        <div>
-            <NavLink to="/">发现音乐</NavLink>
-            <NavLink to="/mine">我的音乐</NavLink>
-            <NavLink to="/friends">好友音乐</NavLink>
-        </div>
-    ) 
+        <HeaderWrapper>
+            <div className="content wrap-v1">
+                <HeaderLeft>
+                    <a href="#/" className="logo sprite_01">网易云音乐</a>
+                    <div className="select-list">
+                        {
+                            headerLinks.map((item, index) => {
+                                return (
+                                    <div key={item.title} className="select-item">
+                                        {showSelectItem(item,index)}
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+                </HeaderLeft>
+                <HeaderRight>Right</HeaderRight>
+            </div>
+            <div className="divider"></div>
+        </HeaderWrapper>
+    )
 })

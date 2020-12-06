@@ -24,5 +24,11 @@ GiHub：[https://github.com/necolas/normalize.css.git](https://github.com/necola
 
 ### 三、配置路由
 
-使用 ` yarn add react-router-dom` 
+使用 
+    ` yarn add react-router-dom` 
  ` yarn add react-router-config`   将路由统一管理
+
+ ### 四、顶部部分样式
+
+ 使用 ` yarn add styled-components` 
+  
