@@ -28,7 +28,7 @@ const routes = [
                 path: "/discover",
                 exact: true,
                 render: () => (
-                    <Redirect to={"/discover/artist"} />
+                    <Redirect to={"/discover/recommend"} />
                 )
             },
             {
