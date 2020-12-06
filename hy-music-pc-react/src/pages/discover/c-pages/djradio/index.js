@@ -10,9 +10,10 @@ import {
 export default memo(function HYDjradio() {
   return (
     <DjRadioWrapper className="wrap-v2">
-      <HYRadioCategory />
+      {/* <HYRadioCategory />
       <HYRadioRecommend />
-      <HYRadioRanking />
+      <HYRadioRanking /> */}
+      HYDjradio
     </DjRadioWrapper>
   )
 })

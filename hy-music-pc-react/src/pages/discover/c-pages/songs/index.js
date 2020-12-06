@@ -31,8 +31,9 @@ export default memo(function HYSongs() {
 
   return (
     <SongsWrapper className="wrap-v2">
-      <HYSongsHeader/>
-      <HYSongsList/>
+      {/* <HYSongsHeader/>
+      <HYSongsList/> */}
+      HYSongs
     </SongsWrapper>
   )
 })

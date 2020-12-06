@@ -8,8 +8,9 @@ export default memo(function HYArtist() {
   return (
     <HYArtistWrapper>
       <div className="content wrap-v2">
-        <HYArtistCategory/>
-        <HYArtistList/>
+        {/* <HYArtistCategory/>
+        <HYArtistList/> */}
+        HYArtist
       </div>
     </HYArtistWrapper>
   )

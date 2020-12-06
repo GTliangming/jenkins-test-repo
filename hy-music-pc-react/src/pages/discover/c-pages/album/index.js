@@ -9,8 +9,9 @@ import {
 export default memo(function HYAlbum() {
   return (
     <AblumWrapper className="wrap-v2">
-      <HYHotAlbum/>
-      <HYTopAlbum/>
+      {/* <HYHotAlbum/>
+      <HYTopAlbum/> */}
+      HYAlbum
     </AblumWrapper>
   )
 })

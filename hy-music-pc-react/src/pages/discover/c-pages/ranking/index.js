@@ -23,13 +23,13 @@ export default memo(function HYRanking() {
 
   return (
     <RankingWrapper className="wrap-v2">
-      <RankingLeft>
+      {/* <RankingLeft>
         <HYTopRanking/>
       </RankingLeft>
       <RankingRight>
         <HYRankingHeader/>
         <HYRankingList/>
-      </RankingRight>
+      </RankingRight> */}HYRanking
     </RankingWrapper>
   )
 })

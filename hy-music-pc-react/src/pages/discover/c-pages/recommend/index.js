@@ -17,7 +17,7 @@ import {
 export default memo(function HYRecommend() {
   return (
     <RecommendWraper>
-      <HYTopBanner/>
+      {/* <HYTopBanner/>
       <Content className="wrap-v2">
         <RecommendLeft>
           <HYHotRecommend />
@@ -29,7 +29,8 @@ export default memo(function HYRecommend() {
           <HYSettleSinger />
           <HYHotRadio />
         </RecommendRight>
-      </Content>
+      </Content> */}
+      HYRecommend
     </RecommendWraper>
   )
 })

@@ -2,7 +2,7 @@ import React, { memo } from 'react';
 import { useDispatch } from 'react-redux';
 
 import { getSizeImage } from '@/utils/format-utils';
-import { getSongDetailAction } from '@/pages/player/store';
+// import { getSongDetailAction } from '@/pages/player/store';
 
 import { TopRankingWrapper } from './style';
 
@@ -21,7 +21,7 @@ export default memo(function HYTopRanking(props) {
 
   return (
     <TopRankingWrapper>
-      <div className="header">
+      {/* <div className="header">
         <div className="image">
           <img src={getSizeImage(info.coverImgUrl)} alt="" />
           <a href="/todo" className="image_cover">ranking</a>
@@ -53,7 +53,7 @@ export default memo(function HYTopRanking(props) {
             )
           })
         }
-      </div>
+      </div> */}
       <div className="footer">
         <a href="/todo">查看全部 &gt;</a>
       </div>
