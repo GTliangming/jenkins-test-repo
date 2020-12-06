@@ -43,5 +43,11 @@ plugins: [
         }
     ]
  ```
+
+ > 导入的东西  ` yarn add babel-plugin-import`
+
+ ### 五、redux
+
+ 安装 ` yarn add redux react-redux redux-thunk`
  
   
