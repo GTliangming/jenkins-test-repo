@@ -31,4 +31,17 @@ GiHub：[https://github.com/necolas/normalize.css.git](https://github.com/necola
  ### 四、顶部部分样式
 
  使用 ` yarn add styled-components` 
+
+
+ > 查看打包的进度
+ > `npm install simple-progress-webpack-plugin --save -dev`
+ > 
+ ```
+plugins: [
+        {
+            plugin: CracoVtkPlugin()
+        }
+    ]
+ ```
+ 
   

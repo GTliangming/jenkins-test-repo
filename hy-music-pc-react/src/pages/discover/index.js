@@ -1,11 +1,11 @@
-import React, {memo} from 'react';
+import React, { memo, useEffect } from 'react';
 import { NavLink } from "react-router-dom";
 import { renderRoutes } from "react-router-config";
 
-import { 
+import {
   dicoverMenu
 } from "@/common/link-data";
-
+import request from "@/network/axios"
 import {
   DiscoverWrapper,
   TopMenu
@@ -13,6 +13,13 @@ import {
 
 export default memo(function HYDiscover(props) {
   const { route } = props;
+  useEffect(() => {
+    request({
+      url: "/banner"
+    }).then(res => {
+      console.log(1111, res)
+    })
+  }, [])
 
   return (
     <DiscoverWrapper>
