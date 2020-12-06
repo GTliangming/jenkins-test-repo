@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 
-import HYHotAlbum from './c-cpns/hot-album';
-import HYTopAlbum from './c-cpns/top-album';
+// import HYHotAlbum from './c-cpns/hot-album';
+// import HYTopAlbum from './c-cpns/top-album';
 import {
   AblumWrapper
 } from './style';

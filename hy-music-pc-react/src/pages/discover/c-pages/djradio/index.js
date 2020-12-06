@@ -1,8 +1,8 @@
 import React, { memo } from 'react';
 
-import HYRadioCategory from './c-cpns/radio-category';
-import HYRadioRecommend from './c-cpns/radio-recommend';
-import HYRadioRanking from './c-cpns/radio-ranking';
+// import HYRadioCategory from './c-cpns/radio-category';
+// import HYRadioRecommend from './c-cpns/radio-recommend';
+// import HYRadioRanking from './c-cpns/radio-ranking';
 import {
   DjRadioWrapper
 } from "./style";
