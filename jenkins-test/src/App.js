@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn jenkins for lm  hahaha
+          Learn jenkins for lm  哈哈哈哈哈打不到我吧
         </a>
       </header>
     </div>
